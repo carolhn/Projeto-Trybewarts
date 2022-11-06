@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body , html {
+  background-image: url("https://1.bp.blogspot.com/-I6nUSkLhVok/Xq03Trszx9I/AAAAAAACaFI/3QHDX_KQyrYtve1lBXPIf1AZxf5e0HR3ACLcBGAsYHQ/s1600/465.jpg");
+  padding: 0%;
+  height: 100%;
+  margin: 0%;
+  background-color: rgb(214, 214, 214);
+}
+
+.header {
+  background-color:#b14623;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+  margin: 0.5% 0.5%;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.1%;
+  margin-left: 20%;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 40px;
+  color: white;
+}
+
+.trybewarts-login {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  color: black;
+  border-radius: 6px;
+  font-size: 15px;
+  height: 30px;
+  margin: 1px -45px;
+  width: 210px;
+}
+
+#senha {
+  color: black;
+  border-radius: 6px;
+  font-size: 15px;
+  height: 30px;
+  margin: 1px -16px;
+  width: 190px;
+}
+
+#button {
+  background-color: #df8c70a4;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 6px;
+  height: 30px;
+  width: 180px;
+}
+
+/* _________________________main ___________________ */
+
+
+main {
+  width: 100%;
+}
+
+#evaluation-form {
+  color: white;
+  background-color: #b1472365;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  margin-left: 7%;
+  width: 570px;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0.01px 0.1px 10px;
+  margin-left: 23%;
+  font-size: 20px;
+  width: 50%;
+}
+
+.title-img {
+  width: 35%;
+  margin: 0.5% 0.5%;
+}
+
+.nomesobrenome {
+  align-items: center;
+  display: flex;
+  margin-left: 10%;
+  width: 82%;
+}
+
+
+#input-name {
+  left: 80%;
+  width: 95%;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  height: 30px;
+}
+
+#input-lastname {
+  left: 80%;
+  width: 95%;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.email-home {
+  align-items: center;
+  display: flex;
+  margin: 10px;
+  margin-left: 10%;
+  width: 82%;
+}
+
+#input-email {
+  left: 80%;
+  width: 96%;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  height: 30px;
+}
+
+#house {
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  height: 30px;
+}
+
+
+.emailcasa label {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+hr {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  width: 510px;
+  margin-left: 8%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 50px;
+  width: 90%;
+}
+
+.collun1 {
+  display: flex;
+}
+
+.input-radio {
+  width: 50%;
+}
+
+.input-checkbox {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 10px;
+}
+
+.collun2 {
+  display: block;
+}
+
+.section2 {
+  display: flex;
+  margin: 10px 60px;
+  flex-direction: row;
+  width: 80%;
+}
+
+.section3 {
+  display: flex;
+  margin: 10px 25px;
+  flex-direction: row;
+  width: 90%;
+}
+
+.textarea {
+  width: 100%;
+  height: 6em;
+  margin: 5px 5px;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+#label-infos {
+  align-items: center;
+  display: flex;
+  left: 50px;
+  margin: 5px 2px 2px;
+  width: 80%;
+}
+
+
+#submit-btn {
+  background-color: #b14623;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 6px;
+  height: 40px;
+  margin: 6px 100px 1px;
+  width: 400px;
+}
+
+footer {
+  background-color: rgb(32, 32, 32);
+  color: rgb(235, 236, 226);
+  display: flex;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+#trybewarts-forms-logo {
+  position: absolute;
+  left: 850px;
+  width: 28%;
+}
