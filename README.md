@@ -1,4 +1,4 @@
-# Projeto Trybewarts Wizarding School! 🧙
+#  🏰️ Projeto Trybewarts!
 
 <img src="https://github.com/carolhn/Projeto-Trybewarts/blob/main/img.png" alt="imagem.png" style="max-width: 60%;">
 <br>
